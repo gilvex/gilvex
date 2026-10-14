@@ -44,7 +44,7 @@ GitHub READMEs do not run arbitrary JavaScript. The SVG illustrations are images
 
 ## Maintenance
 
-Edit `README.md` for copy and links. Edit `assets/*.svg` for artwork. SVGs are dependency-free, use system fonts, and adapt through `prefers-color-scheme`; no font or rendering service is required. The settled artwork remains visible if animation is unavailable.
+Edit `README.md` for copy and links. Edit `assets/*.svg` for artwork. SVGs are dependency-free and use system fonts; no font or rendering service is required. The header and Aril artwork adapt through `prefers-color-scheme`; Vagabond keeps a charcoal background and lime accents in both themes. The settled artwork remains visible if animation is unavailable.
 
 Professional context follows the public [website](https://www.gilvex.link/) and [résumé](https://www.gilvex.link/resume/). Update those claims together when responsibilities change. Technical claims link to the project case studies and real verification.
 

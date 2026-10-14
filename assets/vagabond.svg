@@ -2,8 +2,7 @@
   <title id="title">02 — Vagabond UI. Details that compose.</title>
   <desc id="description">An illustrated component workbench with a switch, palette, button, and chart. This is project artwork; the enclosing link opens the working showcase.</desc>
   <style>
-    :root { --bg:#f5f7f0; --surface:#ffffff; --ink:#252b1e; --muted:#5c6651; --line:#d7dfca; --accent:#486725; --tile:#e7f0d9; }
-    @media (prefers-color-scheme:dark) { :root { --bg:#171c14; --surface:#20271a; --ink:#edf2e6; --muted:#a6b498; --line:#39492c; --accent:#d4f5a0; --tile:#2b391f; } }
+    :root { --bg:#09090b; --surface:#111114; --ink:#f4f4f5; --muted:#a1a1aa; --line:#2b2b31; --accent:#d4f5a0; --tile:#1c2416; }
     text { font-family:Arial,Helvetica,sans-serif; fill:var(--ink); }
     .mono { font-family:Consolas,Menlo,monospace; font-size:13px; letter-spacing:1.6px; fill:var(--muted); }
   </style>
