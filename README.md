@@ -53,7 +53,7 @@ The demo uses sample data and simulated teammates. Aril plans systems; it does n
 <br>
 
 <a href="https://gilvex.github.io/vagabondui/">
-  <img src="./assets/vagabond.svg" width="100%" alt="Vagabond UI — illustrated component workbench. Click to explore the live React component showcase.">
+  <img src="./assets/vagabond-charcoal.svg" width="100%" alt="Vagabond UI — illustrated component workbench. Click to explore the live React component showcase.">
 </a>
 
 **A React component library with visual presets and interactive application templates.**

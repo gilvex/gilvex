@@ -48,4 +48,6 @@ Edit `README.md` for copy and links. Edit `assets/*.svg` for artwork. SVGs are d
 
 Professional context follows the public [website](https://www.gilvex.link/) and [résumé](https://www.gilvex.link/resume/). Update those claims together when responsibilities change. Technical claims link to the project case studies and real verification.
 
+When replacing artwork, update its filename and README reference together if GitHub's image cache keeps serving the previous version. The charcoal Vagabond card uses `assets/vagabond-charcoal.svg` for this reason.
+
 Preview GitHub's rendered Markdown, not just raw HTML: check image loading, keyboard disclosure controls, links, light/dark appearance, narrow widths, and reduced motion. GitHub's own theme choice can affect embedded image appearance; the panels retain their borders and contrast in either palette.
