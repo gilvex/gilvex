@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="230" viewBox="0 0 880 230" role="img" aria-labelledby="title description">
+  <title id="title">02 — Vagabond UI. Details that compose.</title>
+  <desc id="description">An illustrated component workbench with a switch, palette, button, and chart. This is project artwork; the enclosing link opens the working showcase.</desc>
+  <style>
+    :root { --bg:#f5f7f0; --surface:#ffffff; --ink:#252b1e; --muted:#5c6651; --line:#d7dfca; --accent:#486725; --tile:#e7f0d9; }
+    @media (prefers-color-scheme:dark) { :root { --bg:#171c14; --surface:#20271a; --ink:#edf2e6; --muted:#a6b498; --line:#39492c; --accent:#d4f5a0; --tile:#2b391f; } }
+    text { font-family:Arial,Helvetica,sans-serif; fill:var(--ink); }
+    .mono { font-family:Consolas,Menlo,monospace; font-size:13px; letter-spacing:1.6px; fill:var(--muted); }
+  </style>
+  <rect x="1" y="1" width="878" height="228" rx="16" fill="var(--bg)" stroke="var(--line)"/>
+  <text x="32" y="38" class="mono">02 / REACT COMPONENT LIBRARY</text>
+  <text x="30" y="105" font-size="48" font-weight="700" letter-spacing="-2">Vagabond UI<tspan fill="var(--accent)">.</tspan></text>
+  <text x="33" y="143" font-size="25">Details that compose.</text>
+  <rect x="32" y="175" width="210" height="30" rx="15" fill="var(--tile)"/>
+  <text x="47" y="195" font-size="14" fill="var(--accent)">EXPLORE COMPONENTS ↗</text>
+  <rect x="447" y="30" width="189" height="75" rx="10" fill="var(--surface)" stroke="var(--line)"/>
+  <path d="M465 53H537M465 67H521M465 81H531" stroke="var(--muted)" stroke-width="2" stroke-linecap="round"/>
+  <rect x="566" y="51" width="48" height="27" rx="14" fill="var(--accent)"/>
+  <circle cx="601" cy="64.5" r="9" fill="var(--surface)"/>
+  <rect x="650" y="30" width="197" height="75" rx="10" fill="var(--surface)" stroke="var(--line)"/>
+  <circle cx="682" cy="67" r="12" fill="var(--accent)"/>
+  <circle cx="722" cy="67" r="12" fill="#eda0b9"/>
+  <circle cx="762" cy="67" r="12" fill="#9ebeff"/>
+  <circle cx="802" cy="67" r="12" fill="#e9c58e"/>
+  <rect x="447" y="119" width="189" height="81" rx="10" fill="var(--surface)" stroke="var(--line)"/>
+  <rect x="464" y="139" width="155" height="41" rx="7" fill="var(--tile)" stroke="var(--line)"/>
+  <path d="M491 160L497 166L509 153" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M527 160H592" stroke="var(--accent)" stroke-width="3" stroke-linecap="round"/>
+  <rect x="650" y="119" width="197" height="81" rx="10" fill="var(--surface)" stroke="var(--line)"/>
+  <path d="M670 180H827M670 157H827M670 134H827" stroke="var(--line)"/>
+  <path d="M670 174L696 161L719 168L745 142L770 150L795 136L827 140" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

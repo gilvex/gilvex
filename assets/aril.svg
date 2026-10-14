@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="230" viewBox="0 0 880 230" role="img" aria-labelledby="title description">
+  <title id="title">01 — Aril. Plan together.</title>
+  <desc id="description">An illustrated architecture canvas with connected nodes and two collaborator pointers. This is project artwork, not a screenshot or live session.</desc>
+  <style>
+    :root { --bg:#f8f6f3; --surface:#ffffff; --ink:#2b2523; --muted:#70625e; --line:#e2d8d3; --accent:#9e4560; --tile:#f5e5e9; }
+    @media (prefers-color-scheme:dark) { :root { --bg:#1c1719; --surface:#282024; --ink:#f3eaed; --muted:#bca6ae; --line:#49313d; --accent:#eda0b9; --tile:#3a2330; } }
+    text { font-family:Arial,Helvetica,sans-serif; fill:var(--ink); }
+    .mono { font-family:Consolas,Menlo,monospace; font-size:13px; letter-spacing:1.6px; fill:var(--muted); }
+  </style>
+  <rect x="1" y="1" width="878" height="228" rx="16" fill="var(--bg)" stroke="var(--line)"/>
+  <text x="32" y="38" class="mono">01 / COLLABORATIVE PLANNING</text>
+  <text x="30" y="105" font-size="54" font-weight="700" letter-spacing="-2">Aril<tspan fill="var(--accent)">.</tspan></text>
+  <text x="33" y="143" font-size="25">Plan together.</text>
+  <rect x="32" y="175" width="171" height="30" rx="15" fill="var(--tile)"/>
+  <text x="47" y="195" font-size="14" fill="var(--accent)">OPEN THE DEMO ↗</text>
+  <rect x="426" y="25" width="428" height="180" rx="10" fill="var(--surface)" stroke="var(--line)"/>
+  <path d="M426 51H854M459 51V205" stroke="var(--line)"/>
+  <circle cx="440" cy="38" r="3" fill="var(--accent)"/>
+  <path d="M452 38H503M438 69H447M438 83H447M438 97H447" stroke="var(--muted)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M563 107H596Q610 107 610 121V151Q610 165 624 165H655M563 107H596Q610 107 610 93V90Q610 78 624 78H744M710 165H724Q738 165 738 151V114Q738 100 752 100" fill="none" stroke="var(--accent)" stroke-width="2"/>
+  <rect x="483" y="81" width="80" height="52" rx="7" fill="var(--tile)" stroke="var(--line)"/>
+  <path d="M497 97H547M497 107H534M497 117H540" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/>
+  <rect x="655" y="143" width="64" height="43" rx="7" fill="var(--tile)" stroke="var(--line)"/>
+  <path d="M668 158H705M668 169H696" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/>
+  <rect x="744" y="65" width="82" height="50" rx="7" fill="var(--tile)" stroke="var(--line)"/>
+  <path d="M758 81H811M758 92H797M758 102H806" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M592 137L594 157L600 151L610 150Z" fill="var(--accent)" stroke="var(--surface)" stroke-width="2"/>
+  <path d="M795 139L797 159L803 153L813 152Z" fill="#8b9bd6" stroke="var(--surface)" stroke-width="2"/>
+</svg>

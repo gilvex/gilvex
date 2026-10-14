@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="300" viewBox="0 0 880 300" role="img" aria-labelledby="title description">
+  <title id="title">Gilvex — from idea to something real</title>
+  <desc id="description">An original studio workbench illustration. A small signal travels from a sketch through an interface to a connected system, then settles. Animation respects reduced-motion preferences.</desc>
+  <style>
+    :root { --bg:#f7f7f2; --surface:#ffffff; --ink:#222721; --muted:#596153; --line:#d6ddce; --grid:#e7ebdf; --accent:#426728; --tile:#e6efda; }
+    @media (prefers-color-scheme:dark) { :root { --bg:#141713; --surface:#1c211b; --ink:#edf2e7; --muted:#a7b19e; --line:#36412e; --grid:#222a1e; --accent:#d4f5a0; --tile:#29351f; } }
+    text { font-family:Arial,Helvetica,sans-serif; fill:var(--ink); }
+    .mono { font-family:Consolas,Menlo,monospace; font-size:13px; letter-spacing:2px; fill:var(--muted); }
+    .signal { fill:none; stroke:var(--accent); stroke-width:2; stroke-dasharray:12 300; animation:travel 3.6s ease-in-out 1 forwards; }
+    .arrive { animation:arrive 1s ease-out 1 both; transform-origin:735px 160px; }
+    @keyframes travel { from { stroke-dashoffset:300; opacity:0; } 15%,85% { opacity:1; } to { stroke-dashoffset:-100; opacity:0; } }
+    @keyframes arrive { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+    @media (prefers-reduced-motion:reduce) { .signal { animation:none; opacity:0; } .arrive { animation:none; } }
+  </style>
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="var(--grid)"/></pattern>
+  </defs>
+  <rect x="1" y="1" width="878" height="298" rx="18" fill="var(--bg)" stroke="var(--line)"/>
+  <rect x="460" y="25" width="395" height="250" fill="url(#dots)"/>
+  <path d="M28 51H852" stroke="var(--line)"/>
+  <circle cx="34" cy="28" r="4" fill="var(--accent)"/>
+  <text x="49" y="33" class="mono">GILVEX / PERSONAL WORKBENCH</text>
+  <text x="840" y="33" text-anchor="end" class="mono">IDEA → BUILD</text>
+  <text x="37" y="151" font-size="84" font-weight="700" letter-spacing="-5">gilvex<tspan fill="var(--accent)">.</tspan></text>
+  <text x="41" y="195" font-size="24">Imagine it. Make it real.</text>
+  <text x="42" y="254" class="mono">INTERFACES / SYSTEMS / SMALL DETAILS</text>
+  <path d="M548 157H587Q601 157 601 143V128Q601 114 615 114H663M663 114H682Q696 114 696 130V183Q696 198 711 198H744" fill="none" stroke="var(--line)" stroke-width="2"/>
+  <path class="signal" d="M548 157H587Q601 157 601 143V128Q601 114 615 114H663M663 114H682Q696 114 696 130V183Q696 198 711 198H744"/>
+  <g transform="rotate(-7 517 157)">
+    <rect x="478" y="117" width="78" height="80" rx="9" fill="var(--surface)" stroke="var(--line)"/>
+    <path d="M494 138H536M494 149H525M494 160H532M494 174L504 180L521 165" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g class="arrive">
+    <rect x="619" y="77" width="82" height="74" rx="10" fill="var(--surface)" stroke="var(--line)"/>
+    <path d="M619 96H701" stroke="var(--line)"/>
+    <circle cx="630" cy="87" r="2" fill="var(--muted)"/>
+    <rect x="630" y="107" width="22" height="31" rx="4" fill="var(--tile)"/>
+    <path d="M661 111H690M661 120H684M661 130H690" stroke="var(--accent)" stroke-width="2"/>
+    <rect x="733" y="157" width="83" height="80" rx="10" fill="var(--surface)" stroke="var(--line)"/>
+    <path d="M752 180L795 198L752 217Z" fill="none" stroke="var(--line)" stroke-width="2"/>
+    <circle cx="752" cy="180" r="6" fill="var(--accent)"/>
+    <circle cx="795" cy="198" r="6" fill="var(--accent)"/>
+    <circle cx="752" cy="217" r="6" fill="var(--accent)"/>
+  </g>
+</svg>
