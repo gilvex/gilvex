@@ -1,10 +1,10 @@
 # Ali Aliyev · Gilvex
 
-**Frontend & product engineering.** At **Yandex**, I lead and own the Pickup Point Platform and build tools for the engineering team.
+**Senior frontend engineer at Yandex**, working on Yandex Logistics projects: frontend architecture, performance, and the testing and release tooling around them.
 
 I build collaborative applications, reusable UI, and the systems behind them. **TypeScript / React**, from the first interaction to persistence and delivery.
 
-Based in Baku; building for the web since 2018.
+Based in Baku, open to relocation (US, EU) or remote. Building for the web since 2018.
 
 **[Explore the projects ↓](#pick-a-project)** · [Website](https://www.gilvex.link/) · [Résumé](https://www.gilvex.link/resume/) · [Say hello](mailto:skaneprime@gmail.com)
 
@@ -93,8 +93,8 @@ source → build → npm tarball
 
 <br>
 
-- **Yandex:** Pickup Point Platform ownership, frontend architecture, release pipelines, and developer tooling.
-- **Farcana:** real-time search interfaces, WebSocket connection handling, server state, and component-library work.
+- **Yandex:** frontend architecture, performance, release pipelines, and developer tooling for Yandex Logistics.
+- **Dizzaract (formerly Farcana):** real-time search interfaces, WebSocket connection handling, server state, and component-library work.
 - **Onix:** full-stack development and leadership of a distributed team.
 - **Desktop and product work:** React/Tauri integration, file-integrity checks, frontend performance, and deployment workflows.
 
