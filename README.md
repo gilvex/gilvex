@@ -116,12 +116,6 @@ Merged contributions:
 
 </details>
 
-## Field notes
-
-- [Migrating a frontend to Feature-Sliced Design](https://www.gilvex.link/writing/architecture-that-earns-its-complexity/)
-- [Finding a frontend performance bottleneck](https://www.gilvex.link/writing/performance-is-a-product-feature/)
-- [Handling disconnects and stale WebSocket responses](https://www.gilvex.link/writing/building-resilient-realtime-interfaces/)
-
 ---
 
 **I like to imagine stuff and then make it.**
